@@ -133,12 +133,6 @@ include \"tasks-bookings.tji\"")))  ;; <- assuming tasks-bookings.tji exists!
 
 ; daily { width 1000 }
 
-;; add "booking" to lits of valid task attributes
-;; (setq org-taskjuggler-valid-task-attributes '(account start note duration endbuffer endcredit end
-;; 						      flags journalentry length limits maxend maxstart minend
-;; 						      minstart period reference responsible scheduling
-;; 						      startbuffer startcredit statusnote chargeset charge))
-
 ;; add "include"
 (setq org-taskjuggler-valid-project-attributes
       '(timingresolution timezone alertlevels currency currencyformat
