@@ -106,3 +106,15 @@ include \"tasks-bookings.tji\"")))
 			 outputdir scenario shorttimeformat timeformat trackingscenario
 			 weekstartsmonday weekstartssunday workinghours
 			 yearlyworkingdays include))
+
+(setq org-duration-units
+       (quote
+	(("min" . 1)
+	 ("h" . 60)
+	 ("d" . 1440)
+	 ("w" . 10080)
+	 ("m" . 43200)
+	 ("y" . 525960.0)
+	 ("md" . 450)
+	 ("mw" . 2250))))
+(org-duration-set-regexps)
